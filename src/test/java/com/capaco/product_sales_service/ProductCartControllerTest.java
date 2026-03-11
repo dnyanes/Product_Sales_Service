@@ -23,7 +23,7 @@ public class ProductCartControllerTest {
                     "firstName" : "Dnyan",
                     "lastName" : "Shejul",
                     "items" : [
-                    {"producttype" : "HIGH_END_PHONE", "quantity" : 1}]
+                    {"productType" : "HIGH_END_PHONE", "quantity" : 1}]
                 }
                 """;
         mockMvc.perform(post("/cart/calculate")

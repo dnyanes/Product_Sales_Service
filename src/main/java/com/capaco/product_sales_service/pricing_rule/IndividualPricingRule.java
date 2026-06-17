@@ -12,6 +12,7 @@ public class IndividualPricingRule implements PricingRule {
     @Override
     public boolean supports(Client client) {
         //added comment
+        //another comment
         return client instanceof IndividualClient;
     }
 

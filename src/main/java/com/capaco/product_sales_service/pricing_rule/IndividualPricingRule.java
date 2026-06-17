@@ -11,6 +11,7 @@ import java.math.BigDecimal;
 public class IndividualPricingRule implements PricingRule {
     @Override
     public boolean supports(Client client) {
+        //added comment
         return client instanceof IndividualClient;
     }
 
